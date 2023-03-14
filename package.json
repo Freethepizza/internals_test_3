@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "nuxt": "^3.2.3"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.7",
+    "appwrite": "^10.2.0",
+    "cookie-universal-nuxt": "^2.2.2",
+    "node-appwrite": "^8.2.0",
+    "pinia": "^2.0.33",
+    "pocketbase": "^0.12.1",
+    "three": "^0.150.1"
+  }
+}
